@@ -1,0 +1,14 @@
+datasource:
+  driver-class-name: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:5432/limitservice
+  username: postgres
+  password: adgjmp123
+jpa:
+  hibernate:
+    ddl-auto: create-drop
+  show-sql: true
+  open-in-view: false
+
+limit-service:
+  minimum: 1
+  maximum: 10
